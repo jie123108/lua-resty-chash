@@ -11,7 +11,12 @@ Table of Contents
 * [Synopsis](#synopsis)
 * [Methods](#methods)
     * [new](#new)
-
+    * [count](#count)
+    * [add](#add)
+    * [init](#init)
+    * [get](#get)
+    * [items](#items)
+    * [delete] (#delete)
 * [Installation](#installation)
 * [Authors](#authors)
 * [Copyright and License](#copyright-and-license)
@@ -75,6 +80,30 @@ the `item` must a string.
 the `weight` is a number, default is 1.
 the sum of all the item's weight must be less then `consistent_buckets`
 
+init
+-------
+`syntax: geohash_obj:init()`
+
+Init of the geohash. 
+Before use the geohash.You must Initialization it.
+
+get
+-------
+`syntax: value = geohash_obj:get(key)`
+Use geohash to get a value, the value is one of you added!
+
+the `key` is a string.
+
+items
+-------
+`syntax: items = geohash_obj:items()`
+Get the all items as a table.
+
+delete
+-------
+`syntax: geohash_obj:delete(item)`
+delete a item from the geohash. you must be reinit the geohash.
+
 
 [Back to TOC](#table-of-contents)
 
@@ -111,9 +140,7 @@ Copyright and License
 
 This module is licensed under the BSD license.
 
-Copyright (C) 2013, by Jiale Zhi <vipcalio@gmail.com>, CloudFlare Inc.
-
-Copyright (C) 2013, by Yichun Zhang <agentzh@gmail.com>, CloudFlare Inc.
+Copyright (C) 2015, by Xiaojie Liu <jie123108@163.com>
 
 All rights reserved.
 
