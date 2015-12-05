@@ -85,24 +85,24 @@ init
 `syntax: geohash_obj:init()`
 
 Init of the geohash. 
-Before use the geohash.You must Initialization it.
+Before using the geohash.You must initialize it.
 
 get
 -------
 `syntax: value = geohash_obj:get(key)`
-Use geohash to get a value, the value is one of you added!
+Use geohash to get a value, the value is one of the items you added!
 
 the `key` is a string.
 
 items
 -------
 `syntax: items = geohash_obj:items()`
-Get the all items as a table.
+Get all the items as a table.
 
 delete
 -------
 `syntax: geohash_obj:delete(item)`
-delete a item from the geohash. you must be reinit the geohash.
+delete an item from the geohash. you must be reinit the geohash.
 
 
 [Back to TOC](#table-of-contents)
