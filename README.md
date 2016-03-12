@@ -1,7 +1,7 @@
 Name
 ====
 
-lua-resty-chash - Geohash module for ngx_lua
+lua-resty-chash - consistent hash module for ngx_lua
 
 Table of Contents
 =================
